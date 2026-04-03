@@ -68,7 +68,7 @@ if uploaded_file is not None:
 
     csv_data["Risk Score"] = scores
 
-    st.line_chart(csv_data[["Risk Score"]])
+    st.line_chart(csv_data[["Risk Score"]]) 
 # -----------------------------
 # INPUT SECTION (CLEAN UI)
 # -----------------------------
