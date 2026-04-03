@@ -75,7 +75,7 @@ if uploaded_file is not None:
 st.subheader("📥 Enter Ride Data")
    
 col1, col2 = st.columns(2)
-  
+    
 with col1:
     speed = st.slider("Speed (km/h)", 0, 120, 50)
     acceleration = st.slider("Acceleration", 0.0, 5.0, 1.0)
