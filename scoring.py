@@ -2,7 +2,7 @@ def calculate_score(speed, acceleration, braking, turn_rate):
     score = 100
 
     # Penalties
-    if speed > 70:
+    if speed > 70: 
         score -= (speed - 70) * 0.5
 
     if acceleration > 3:
