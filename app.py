@@ -153,7 +153,7 @@ final_safety_score = calculate_safety_score(speed, acceleration, turning, brakin
 # Adjusting category thresholds to reflect a 100-down scoring system
 if final_safety_score >= 80:
     category = "🟢 Safe"
-elif final_safety_score >= 50:
+elif final_safety_score >= 50: 
     category = "🟡 Risky"
 else:
     category = "🔴 Dangerous"
